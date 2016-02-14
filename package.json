@@ -2,7 +2,7 @@
   "name": "extendable-promise",
   "version": "0.0.1",
   "description": "Extendable ES6 Promise Implementation",
-  "main": "dist/extendable-promise.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "gulp ci"
   },
