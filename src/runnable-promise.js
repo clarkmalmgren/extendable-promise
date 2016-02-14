@@ -42,7 +42,7 @@ class RunnablePromise extends ExtendablePromise {
    */
   _execute(resolve, reject) {
     try {
-      let response = this._start(resolve, reject);
+      let response = this._run(resolve, reject);
 
       if (response && typeof response.then == 'function') {
         response

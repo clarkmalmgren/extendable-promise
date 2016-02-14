@@ -52,8 +52,7 @@ describe('ExtendablePromise', () => {
   });
 
   it('will automatically fail if no executor is passed', () => {
-    return new ExtendablePromise()
-      .should.be.rejectedWith(TypeError, 'Must provide executor function');
+    expect(() => { new ExtendablePromise() }).to.throw(TypeError, 'Must provide executor function');
   });
 
 });
