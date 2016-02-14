@@ -1,0 +1,10 @@
+# Compilation Outputs
+build/
+dist_test/
+
+# Dependency directories
+node_modules/
+
+# Project Configuration Files
+.idea/
+**.iml

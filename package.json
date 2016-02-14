@@ -1,0 +1,43 @@
+{
+  "name": "extendable-promise",
+  "version": "0.0.1",
+  "description": "Extendable ES6 Promise Implementation",
+  "main": "dist/extendable-promise.js",
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkmalmgren/extendable-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "extendable",
+    "extensible",
+    "es6"
+  ],
+  "author": "Clark Malmgren <cmalmgren@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clarkmalmgren/extendable-promise/issues"
+  },
+  "homepage": "https://github.com/clarkmalmgren/extendable-promise#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-esdoc": "^0.2.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "sinon": "^1.17.3",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0"
+  }
+}
