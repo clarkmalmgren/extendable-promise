@@ -1,6 +1,6 @@
 {
   "name": "extendable-promise",
-  "version": "0.0.1",
+  "version": "0.0.2-beta",
   "description": "Extendable ES6 Promise Implementation",
   "main": "dist/index.js",
   "scripts": {
